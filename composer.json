@@ -63,16 +63,7 @@
             "Composer\\": "src/Composer"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Composer\\Test\\": "tests/Composer/Test",
-            "Composer\\PHPStanRules\\": "phpstan/Rules/src",
-            "Composer\\PHPStanRulesTests\\": "phpstan/Rules/tests"
-        },
-        "classmap": [
-            "phpstan/Rules/tests/data"
-        ]
-    },
+    
     "bin": [
         "bin/composer"
     ],
